@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'phonenumber_field',
     'django_filters',
     'modeltranslation',
+    'django_countries',
 ]
 
 AUTH_USER_MODEL = 'Car.CustomUser'
