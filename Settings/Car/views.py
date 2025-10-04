@@ -1,7 +1,5 @@
-from rest_framework import viewsets, views
+from rest_framework import viewsets
 from rest_framework.decorators import api_view
-from rest_framework.views import APIView
-
 from .filter import CarFilter
 from .models import Car, Comment, CustomUser
 from .permissions import IsSellerOrReadOnly
